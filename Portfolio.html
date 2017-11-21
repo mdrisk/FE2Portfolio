@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang = "en">
+<head>
+  <meta charset="utf-8">
+  <title>Portfolio - Matthew Risk</title>
+  <meta name="description" content="Portfolio Webpage">
+  <meta name="author" content="Matthew Risk">
+
+  <link rel="stylesheet" href="Portfolio.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body>
+<div id="header" class="navbar navbar-default navbar-fixed-top">
+  <img class="image-responsive icon" src="http://res.cloudinary.com/mdrisk/image/upload/v1508505916/Logo2_wczg9i.png" alt="Matt Risk posing">
+  <div type="row" id="header-btn-row" class="center-block">
+    <ul class="navbar" id="mainNavbar">
+      <button id="header-btn1" class="header-btn"><a href="#outer-intro">Introduction</a></button>
+      <button id="header-btn2" class="header-btn"><a href="#outer-port">Portfolio</a></button>
+      <button id="header-btn3" class="header-btn"><a href="#outer-sub">Contact</a></button>
+    </ul>
+  </div>
+  <div id="header-btn-pos" class="dropdown ">
+
+    <i onclick="myFunction()" class="fa fa-list-alt dropbtn" style="font-size:60px"></i>
+  </div>
+
+  <div id="myDropdown" class="dropdown-content center-block ">
+    <a href="#outer-intro" class="header-btn">Introduction</a>
+    <a href="#outer-port" class="header-btn">Portfolio</a>
+    <a href="#outer-sub" class="header-btn">Contact</a>
+  </div>
+</div>
+
+
+<div class="test">
+  <div id="outer-intro" class="width">
+    <h2>Introduction</h2>
+    <div id="intro">
+      <div id="right-intro">
+        <img class="img-responsive picture " src="http://res.cloudinary.com/mdrisk/image/upload/v1508528169/self_z4wqsw.jpg">
+      </div>
+      <div id="left-intro">
+
+        <h4>Matthew Risk</h4>
+        <hr class="line">
+        <h4>The man, the myth, the legend.</h4>
+
+      </div>
+
+    </div>
+  </div>
+  <div id="outer-port" class="width">
+    <h2>Portfolio</h2>
+    <div id="portfolio">
+
+      <div id="left-port">
+        <a target='_blank' href="https://codepen.io/mdrisk/full/RjgWZL/"> <img src="http://res.cloudinary.com/mdrisk/image/upload/v1510766813/SimonPic_ckxyrf.png" class="img-responsive port-pic" alt="Simon Game - Matt Risk"></a>
+        <a target='_blank' href="https://codepen.io/mdrisk/full/pWMwOd/"> <img src="http://res.cloudinary.com/mdrisk/image/upload/v1509049354/3_vngtue.png" class="img-responsive port-pic" alt="Quote Generator - Matt Risk"></a>
+        <a target='_blank' href="https://codepen.io/mdrisk/full/OOJwbd/"><img src="http://res.cloudinary.com/mdrisk/image/upload/v1509371156/Capture4_fiosmi.png" alt="Wikipedia Search Engine" class="img-responsive port-pic"></a>
+        <a target='_blank' href="https://codepen.io/mdrisk/full/EbgRVK/"> <img src="http://res.cloudinary.com/mdrisk/image/upload/v1510175603/pomoClock_uq2nzh.png" class="img-responsive port-pic" alt="Pomodoro Clock - Matt Risk"></a>
+      </div>
+      <div id="right-port">
+
+        <a target='_blank' href="https://codepen.io/mdrisk/full/QOLJPd/"><img src="http://res.cloudinary.com/mdrisk/image/upload/v1509117075/weather_f9r9wt.png" class="img-responsive port-pic" alt="Weather Update - Matt Risk"></a>
+        <a target='_blank' href="https://codepen.io/mdrisk/full/WXrQdK/"> <img src="http://res.cloudinary.com/mdrisk/image/upload/v1509667427/twitchPic_ef1q7j.png" class="img-responsive port-pic" alt="Twitch Status Board - Matt Risk"></a>
+        <a target='_blank' href="https://codepen.io/mdrisk/full/oovmpW/"> <img src="http://res.cloudinary.com/mdrisk/image/upload/v1510064883/calcpic_t88h1w.png" class="img-responsive port-pic" alt="JavaScript Calculator - Matt Risk"></a>
+        <a target='_blank' href="https://codepen.io/mdrisk/full/zPNdxj/"> <img src="http://res.cloudinary.com/mdrisk/image/upload/v1510585469/TTTPic_gxtkf8.png" class="img-responsive port-pic" alt="Tic-Tac-Toe - Matt Risk"></a>
+      </div>
+    </div>
+
+
+  </div>
+  <div id="outer-certs" class="width">
+    <h2>Certificates</h2>
+    <div id="certs">
+      <a target='_blank' href="https://www.freecodecamp.org/mdrisk/front-end-certification"> <img src="http://res.cloudinary.com/mdrisk/image/upload/v1510771070/FECert_zd03yb.png" class="img-responsive certs" alt="FCC FE Cert - Matt Risk"></a>
+    </div>
+  </div>
+
+  <div id="outer-sub" class="width">
+    <h2>Contact</h2>
+    <div id="contact ">
+      <div id="left-sub">
+        <form>
+
+          <input type="text" class="form-control" placeholder="Name">
+          <input type="text" class="form-control" placeholder="Email">
+          <input type="text" class="form-control" placeholder="Phone Number">
+          <button type="submit" class="btn btn-primary"><i class="fa fa-paper-plane"></i> Submit</button>
+        </form>
+      </div>
+      <div id="right-sub">
+        <p>Contact me for more information!</p>
+      </div>
+    </div>
+
+
+  </div>
+  <div id="outer-foot">
+    <div id="footer" class=" width">
+
+      <div id="left-foot">
+        <h2>About this page...</h2>
+
+
+        <h5>Made with <span><em>BLOOD</em></span>
+      and with <span><em>SWEAT</em></span>.</h5>
+
+      </div>
+      <div id="right-foot">
+        <h4><a href="https://twitter.com/therisuka?lang=en"><span class="fa-stack fa-lg questo">
+        <i class=" questo fa fa-circle-thin fa-stack-2x" style="color: #34495e"></i>
+        <i class="fa fa-twitter fa-stack-1x"></i></span></a>
+        <a href="https://github.com/mdrisk"><span class="fa-stack fa-lg questo">
+          <i class=" questo fa fa-circle-thin fa-stack-2x" style="color: #34495e"></i>
+          <i class="fa fa-github fa-stack-1x"></i></span></a>
+        <a href="mailto:mdrisk@yahoo.com"><span class="fa-stack fa-lg questo">
+      <i class=" questo fa fa-circle-thin fa-stack-2x" style="color: #34495e"></i>
+          <i class="fa fa-envelope fa-stack-1x"></i></span></a></h4>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+  <script type="text/javascript" src="Portfolio.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</html>
